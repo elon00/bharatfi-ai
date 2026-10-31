@@ -1,42 +1,34 @@
-# BharatFi AI -- Ministry of Finance
+# BharatFi Cryptocurrency Token Project
 
-[![Architecture](https://img.shields.io/badge/architecture-v5.0-blue.svg)](https://github.com/elon00)
-[![Execution Stack](https://img.shields.io/badge/stack-Internet%20Computer%20(ICP)%20+%20Base%20L2-purple.svg)](https://internetcomputer.org)
-[![Tokenomics](https://img.shields.io/badge/tokenomics-hybrid-emerald.svg)](#tokenomics-and-economic-model)
-[![Production Status](https://img.shields.io/badge/scorecard-100%2F100%20Verified-brightgreen.svg)](reports/FINAL_SCORECARD.md)
+Independent cryptocurrency/token and blockchain application prototype, maintained by elon00.
 
-BharatFi AI: Sovereign GST E-Invoice Validation, Treasury Bill Settlement and Wholesale CBDC Bridge.
+## Asset and network direction
 
----
+- Proposed project symbol: `$BFI`; confirm symbol, decimals and metadata in the actual token implementation.
+- Target ecosystem: Internet Computer (ICP) and Base, subject to source compatibility review.
+- Stage: prototype; production readiness and deployment require current source-bound evidence.
 
-## 🏛️ Ministry & Executive Jurisdiction
-* **Governing Body:** Ministry of Finance
-* **Constitutional Domain:** Union Executive Jurisdiction (Constitution of India)
-* **Coordination Layer:** Internet Computer (ICP) Canister Suite
-* **Multichain Target:** Internet Computer (ICP) + Base L2
+Define the token's application utility, chain-specific implementation and authenticated payment workflows. ICP canisters and Base EVM contracts need separate builds, deployment evidence and interoperability tests.
 
----
+## Token engineering strategy
 
-## 💎 Tokenomics & Economic Model
-* **Model Classification:** `Programmatic Utility ($BFI) -- Institutional Treasury Clearing and Factoring`
-* **Sovereign Invariant:** No speculative tokens are minted for non-commercial governance or regulatory audits.
-* **Settlement Mechanism:** High-speed, tamper-proof state verification with zero floating-point accounting.
+1. Specify a concrete token utility and acceptance criteria.
+2. Define initial supply, lifetime cap policy, bounded emissions, mint authority, vesting, governance, treasury and upgrade permissions.
+3. Implement the selected chain's token standard, wallet connections, validated payment QR payloads and transaction previews.
+4. Verify network identity and finality using configured RPC providers; use QuickNode where supported.
+5. Add x402 paid APIs and Bazaar discovery when there is a real resource, supported facilitator and confirmed settlement.
+6. Execute meaningful unit, smoke, regression, security, dependency and applicable static-analysis tests.
+7. Reproduce a testnet build and transaction, publish genuine explorer identifiers, verify source match and rehearse recovery.
+8. Prepare an exact mainnet release with roles, artifact hashes, fee budget and authorized signing approval.
 
----
+## Evidence and readiness
 
-## 🔐 Cryptographic & Zero-Trust Architecture
-1. **NIST Post-Quantum Cryptography:** FIPS 203 (ML-KEM-1024) and FIPS 204 (ML-DSA-65) hybrid envelopes.
-2. **Conway Automaton Engine:** B3/S23 deterministic state evolution ensuring reproducible state checkpointing.
-3. **x402 Bazaar Protocol:** Standardized HTTP 402 payment challenge and machine-to-machine service monetization.
-4. **QuickNode RPC Failover:** Multi-region high-availability RPC integration with automatic failover.
+Token contracts/programs, deployed asset identifiers, supply and authorities must be checked against the actual network. A green badge, local hash or generated perfect score does not establish a working token, cryptographic security, payment settlement or production deployment.
 
----
+PQC, agentic AI, Conway simulation and cross-chain integrations are features to validate where applicable. Use reviewed cryptographic implementations and published-vector/negative tests. Preserve explicit blockers for unavailable integrations.
 
-## 🧪 Verification & Acceptance Criteria
-* **Smoke Test:** `< 5s` critical-path service availability verified.
-* **Sanity Test:** Single quote, credential minting, and payment proof verified.
-* **Regression Test:** Zero regressions against historical security invariants.
-* **Reality Check:** 100/100 verified score across all architectural reality gates.
+## Development
 
----
-*Autonomous Sovereign Architecture by QMOOSA & elon00 Engineering Team*
+Use the repository's actual manifests, toolchain and CI commands. Inspect the source and test assertions before treating their output as proof. Keep each verified testnet/mainnet release tied to a source commit, artifact and public transaction record.
+
+Portfolio coordination: [bountyhunter-os](https://github.com/elon00/bountyhunter-os).
