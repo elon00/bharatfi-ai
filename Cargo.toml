@@ -2,7 +2,7 @@
 name = "bharatfi_ai"
 version = "0.1.0"
 edition = "2021"
-description = "BharatFi AI: Sovereign GST E-Invoice Validation, Treasury Bill Settlement and Wholesale CBDC Bridge"
+description = "BharatFi cryptocurrency token and blockchain application prototype"
 license = "Apache-2.0"
 
 [dependencies]
